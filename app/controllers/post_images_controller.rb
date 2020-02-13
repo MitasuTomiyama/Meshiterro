@@ -12,9 +12,11 @@ class PostImagesController < ApplicationController
 	end
 
 	def index
+		@post_images = PostImag.all
 	end
 
 	def show
+		
 	end
 
 	private
